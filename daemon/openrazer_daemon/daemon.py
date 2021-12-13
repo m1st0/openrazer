@@ -3,7 +3,7 @@ Daemon class
 
 This class is the main core of the daemon, this serves a basic dbus module to control the main bit of the daemon
 """
-__version__ = '3.1.0'
+__version__ = '3.2.0'
 
 import configparser
 import logging
@@ -280,12 +280,17 @@ class RazerDaemon(DBusService):
         self._config['Startup'] = {
             'sync_effects_enabled': True,
             'devices_off_on_screensaver': True,
-            'mouse_battery_notifier': True,
             'restore_persistence': True,
         }
 
         if config_file is not None and os.path.exists(config_file):
             self._config.read(config_file)
+
+        # Compatibility to older configs
+        if 'mouse_battery_notifier' in self._config['Startup']:
+            self._config['Startup']['battery_notifier'] = self._config['Startup']['mouse_battery_notifier']
+        if 'mouse_battery_notifier_freq' in self._config['Startup']:
+            self._config['Startup']['battery_notifier_freq'] = self._config['Startup']['mouse_battery_notifier_freq']
 
     def read_persistence(self, persistence_file):
         """

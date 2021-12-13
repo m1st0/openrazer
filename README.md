@@ -54,28 +54,36 @@ The devices below are fully feature supported by OpenRazer, which means all avai
 | Razer BlackWidow Lite (2018)                  |  1532:0235  |
 | Razer BlackWidow Essential                    |  1532:0237  |
 | Razer Blade Stealth (2019)                    |  1532:0239  |
-| Razer Blade 15 (2019) Advanced                |  1532:023A  |
-| Razer Blade 15 (2018) Base Model              |  1532:023B  |
+| Razer Blade 15 Advanced (2019)                |  1532:023A  |
+| Razer Blade 15 Base (2018)                    |  1532:023B  |
 | Razer Cynosa Lite                             |  1532:023F  |
-| Razer Blade 15 (2018) Mercury                 |  1532:0240  |
+| Razer Blade 15 Mercury (2018)                 |  1532:0240  |
 | Razer BlackWidow (2019)                       |  1532:0241  |
 | Razer Huntsman Tournament Edition             |  1532:0243  |
-| Razer Blade 15 (Mid 2019) Mercury             |  1532:0245  |
-| Razer Blade 15 (Mid 2019) Base                |  1532:0246  |
+| Razer Blade 15 Mercury (Mid 2019)             |  1532:0245  |
+| Razer Blade 15 Base (Mid 2019)                |  1532:0246  |
 | Razer Blade Stealth (Late 2019)               |  1532:024A  |
 | Razer Blade Pro (Late 2019)                   |  1532:024C  |
 | Razer Blade 15 Studio Edition (2019)          |  1532:024D  |
+| Razer BlackWidow V3                           |  1532:024E  |
 | Razer Blade Stealth (Early 2020)              |  1532:0252  |
 | Razer Blade 15 Advanced (2020)                |  1532:0253  |
-| Razer Blade 15 (Early 2020) Base              |  1532:0255  |
+| Razer Blade 15 Base (Early 2020)              |  1532:0255  |
+| Razer Blade Pro 17 (Early 2020)               |  1532:0256  |
 | Razer Huntsman Mini                           |  1532:0257  |
+| Razer BlackWidow V3 Mini Hyperspeed           |  1532:0258  |
 | Razer Blade Stealth (Late 2020)               |  1532:0259  |
+| Razer BlackWidow V3 Pro (Wired)               |  1532:025A  |
 | Razer Ornata V2                               |  1532:025D  |
 | Razer Cynosa V2                               |  1532:025E  |
 | Razer Huntsman V2 Analog                      |  1532:0266  |
 | Razer Book 13 (2020)                          |  1532:026A  |
 | Razer Blade 15 Advanced (Early 2021)          |  1532:026D  |
+| Razer Blade 15 Base (Early 2021)              |  1532:026F  |
+| Razer Blade 14 (2021)                         |  1532:0270  |
+| Razer BlackWidow V3 Mini Hyperspeed (Wireless)|  1532:0271  |
 | Razer Blade 15 Advanced (Mid 2021)            |  1532:0276  |
+| Razer Blade 17 Pro (Mid 2021)                 |  1532:0279  |
 | Razer BlackWidow V3 Tenkeyless                |  1532:0A24  |
 
 ### Mice
@@ -139,6 +147,8 @@ The devices below are fully feature supported by OpenRazer, which means all avai
 | Razer Viper Mini                              |  1532:008A  |
 | Razer DeathAdder V2 Mini                      |  1532:008C  |
 | Razer Naga Left-Handed Edition                |  1532:008D  |
+| Razer Viper 8KHz                              |  1532:0091  |
+| Razer DeathAdder Essential (2021)             |  1532:0098  |
 
 ### Mousemats
 | Device                                        | USB VID:PID |
@@ -177,6 +187,7 @@ The devices below are fully feature supported by OpenRazer, which means all avai
 | Razer Chroma Hardware Development Kit (HDK)   |  1532:0F09  |
 | Razer Mouse Bungee V3 Chroma                  |  1532:0F1D  |
 | Razer Base Station V2 Chroma                  |  1532:0F20  |
+| Razer Thunderbolt 4 Dock Chroma               |  1532:0F21  |
 | Razer Charging Pad Chroma                     |  1532:0F26  |
 
 #### Determining the Device ID
